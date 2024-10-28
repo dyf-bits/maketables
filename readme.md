@@ -1,5 +1,5 @@
 # Introduction
-This program accepts excel files of student lists in a specific format (a sample of the format is available in xls/). It produces tables that can be used in sc-im. I made this program to automate table creation for my institute, so it is most likely not useful for most people.
+This program accepts excel files of student lists in a specific format (a sample of the format is available in xls/). It produces tables that can be used in [sc-im](https://github.com/andmarti1424/sc-im). I made this program to automate table creation for my institute, so it is most likely not useful for most people.
 
 The excel files should be placed in the ./xls/ directory.
 
@@ -11,7 +11,7 @@ The program will create 2 sheets for each file. one sheet is to be used for atte
 # Dependencies
 The program uses ssconvert to convert the .xls files to .csv files for processing.
 
-ssconvert can be obtained by installing the gnumeric package on linux, or homebrew on Mac OS.
+ssconvert can be obtained by installing the gnumeric package on Linux. This package is also available on Mac OS through [homebrew](https://brew.sh/).
 
 # Compiling
 The ./compile.sh script will compile the program. It will produce the program in the name of "bin/maketables"
